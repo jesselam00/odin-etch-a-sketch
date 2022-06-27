@@ -34,6 +34,15 @@ div {
     transform: translateY(-50%);
 }
 
+.squareDiv {
+    background-color: white;
+    border-style: solid;
+}
+
+.squareDiv:hover {
+    background-color: black;
+}
+
 .title {
 
 }
