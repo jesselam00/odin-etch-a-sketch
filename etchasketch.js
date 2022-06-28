@@ -25,13 +25,13 @@ function generateContainerValues(squaresNum) {
     numberOfSquaresY = numberOfSquaresX
     numberOfSquares = numberOfSquaresX * numberOfSquaresY
     if (numberOfSquaresX >= 40) {
-        squareDivHeight = 10
+        squareDivHeight = 9
     }
     else if (numberOfSquaresX >= 32) {
-        squareDivHeight = 12
+        squareDivHeight = 11
     }
     else if (numberOfSquaresX >= 24) {
-        squareDivHeight = 16
+        squareDivHeight = 14
     }
     else {
         squareDivHeight = 20
