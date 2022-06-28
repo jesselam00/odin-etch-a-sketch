@@ -32,7 +32,7 @@ div {
     position: absolute;
     top: 50%;
     -ms-transform: translateY(-50%);
-    transform: translateY(-55%);
+    transform: translateY(-53%);
 }
 
 .squareDiv {
