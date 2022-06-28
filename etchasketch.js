@@ -5,14 +5,14 @@ let numberOfSquaresX = 16
 let numberOfSquaresY = numberOfSquaresX
 let numberOfSquares = numberOfSquaresX * numberOfSquaresY
 let squareDivHeight = 0
-if (numberOfSquaresX >= 70) {
-    squareDivHeight = 4
-}
-else if (numberOfSquaresX >= 50) {
-    squareDivHeight = 6
-}
-else if (numberOfSquaresX >= 30) {
+if (numberOfSquaresX >= 40) {
     squareDivHeight = 8
+}
+else if (numberOfSquaresX >= 32) {
+    squareDivHeight = 12
+}
+else if (numberOfSquaresX >= 24) {
+    squareDivHeight = 10
 }
 else {
     squareDivHeight = 20
@@ -24,17 +24,17 @@ function generateContainerValues(squaresNum) {
     numberOfSquaresX = squaresNum
     numberOfSquaresY = numberOfSquaresX
     numberOfSquares = numberOfSquaresX * numberOfSquaresY
-    if (numberOfSquaresX >= 70) {
-        squareDivHeight = 5
+    if (numberOfSquaresX >= 40) {
+        squareDivHeight = 10
     }
-    else if (numberOfSquaresX >= 45) {
-        squareDivHeight = 8
-    }
-    else if (numberOfSquaresX >= 30) {
+    else if (numberOfSquaresX >= 32) {
         squareDivHeight = 12
     }
+    else if (numberOfSquaresX >= 24) {
+        squareDivHeight = 16
+    }
     else {
-        squareDivHeight = 18
+        squareDivHeight = 20
     }
     containerDivHeight = `${numberOfSquaresX * squareDivHeight}px`
     containerDivWidth = containerDivHeight

@@ -29,7 +29,7 @@ div {
     flex-flow: row wrap;
     margin: 0;
     position: absolute;
-    top: 45%;
+    top: 43%;
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
 }
