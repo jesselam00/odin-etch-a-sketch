@@ -2,7 +2,7 @@ html {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: "Sacramento", cursive, sans-serif;
 }
 
 *, *::before, *::after {
@@ -29,7 +29,7 @@ div {
     flex-flow: row wrap;
     margin: 0;
     position: absolute;
-    top: 50%;
+    top: 47%;
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
 }
@@ -37,20 +37,118 @@ div {
 .squareDiv {
     background-color: white;
     border-style: solid;
+    border-color: wheat;
 }
 
 .squareDiv:hover {
-    background-color: black;
+    background-color: #603a06;
+    transform: scale(1.25);
 }
 
 .sketched {
-    background-color: black;
+    background-color: #603a06;
 }
 
 .title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    position: absolute;
+    top: 10%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    background-color: wheat;
+    height: 150px;
+    width: 400px;
+    border-radius: 15px;
+}
 
+.title h1, .options p {
+    color: #603a06;
+}
+
+.title h1 {
+    margin-top: 60px;
+    text-align: center;
+    font-size: 64px;
 }
 
 .options {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    position: absolute;
+    bottom: -5%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    background-color: wheat;
+    height: 200px;
+    width: 400px;
+    border-radius: 15px;
+    font-family: Helvetica, Arial, sans-serif;
+}
 
+.slidecontainer {
+    width: 70%; /* Width of the outside container */
+}
+.slidecontainer:hover {
+    transform: scale(1.1);
+}
+
+/* The slider itself */
+.gridSlider {
+    -webkit-appearance: none;  /* Override default CSS styles */
+    appearance: none;
+    width: 100%; /* Full-width */
+    height: 25px; /* Specified height */
+    background: #d3d3d3; /* Grey background */
+    outline: none; /* Remove outline */
+    opacity: 0.7; /* Set transparency (for mouse-over effects on hover) */
+    -webkit-transition: .2s; /* 0.2 seconds transition on hover */
+    transition: opacity .2s;
+}
+
+/* Mouse-over effects */
+.gridSlider:hover {
+    opacity: 1; /* Fully shown on mouse-over */
+    
+}
+
+/* The slider handle (use -webkit- (Chrome, Opera, Safari, Edge) and -moz- (Firefox) to override default look) */
+.gridSlider::-webkit-slider-thumb {
+    -webkit-appearance: none; /* Override default look */
+    appearance: none;
+    width: 25px; /* Set a specific slider handle width */
+    height: 25px; /* Slider handle height */
+    background: #8f5709; /* Green background */
+    cursor: pointer; /* Cursor on hover */
+}
+
+.gridSlider::-moz-range-thumb {
+    width: 25px; /* Set a specific slider handle width */
+    height: 25px; /* Slider handle height */
+    background: #8f5709; /* Green background */
+    cursor: pointer; /* Cursor on hover */
+}
+
+.gridLabel {
+    font-size: 20px;
+}
+
+.clearButton {
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5px;
+    background-color: rgb(255, 243, 224);
+    color: rgb(112, 88, 56);
+    height: 40px;
+    width: 70px;
+}
+
+.clearButton:hover {
+    transform: scale(1.1);
+    background-color: rgb(255, 193, 193);
 }
