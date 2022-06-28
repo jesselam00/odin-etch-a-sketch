@@ -30,7 +30,7 @@ div {
     flex-flow: row wrap;
     margin: 0;
     position: absolute;
-    top: 45%;
+    top: 50%;
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
 }
@@ -82,7 +82,7 @@ div {
     align-items: center;
     margin: 0;
     position: absolute;
-    bottom: 0%;
+    bottom: -5%;
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
     background-color: wheat;
