@@ -6,13 +6,13 @@ let numberOfSquaresY = numberOfSquaresX
 let numberOfSquares = numberOfSquaresX * numberOfSquaresY
 let squareDivHeight = 0
 if (numberOfSquaresX >= 40) {
-    squareDivHeight = 8
+    squareDivHeight = 6
 }
 else if (numberOfSquaresX >= 32) {
-    squareDivHeight = 12
+    squareDivHeight = 8
 }
 else if (numberOfSquaresX >= 24) {
-    squareDivHeight = 10
+    squareDivHeight = 12
 }
 else {
     squareDivHeight = 20
@@ -25,13 +25,13 @@ function generateContainerValues(squaresNum) {
     numberOfSquaresY = numberOfSquaresX
     numberOfSquares = numberOfSquaresX * numberOfSquaresY
     if (numberOfSquaresX >= 40) {
-        squareDivHeight = 9
+        squareDivHeight = 6
     }
     else if (numberOfSquaresX >= 32) {
-        squareDivHeight = 11
+        squareDivHeight = 8
     }
     else if (numberOfSquaresX >= 24) {
-        squareDivHeight = 14
+        squareDivHeight = 12
     }
     else {
         squareDivHeight = 20
