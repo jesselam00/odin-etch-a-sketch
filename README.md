@@ -1,4 +1,7 @@
 # odin-etch-a-sketch
+
+https://jesselam00.github.io/odin-etch-a-sketch/
+
 Etch-a-Sketch for The Odin Project 
 
 https://www.theodinproject.com/lessons/foundations-etch-a-sketch 
